@@ -23,6 +23,7 @@ public class ModItems extends Item {
 	public static Item bat;
 	public static Item bludgerGlove;
 	public static Item bludger;
+	public static Item wand;
 	// Armor
 	public static ArmorMaterial headBandMaterial;
 	public static ArmorMaterial jerseyMaterial;
@@ -47,6 +48,7 @@ public class ModItems extends Item {
 		bat = new ItemBat();
 		bludgerGlove = new ItemBludgerGlove();
 		bludger = new ItemBludger();
+		wand = new ItemWand();
 		
 		GameRegistry.registerItem(quaffle, ItemQuaffle.name);
 		GameRegistry.registerItem(snitch, ItemSnitch.name);
@@ -55,6 +57,7 @@ public class ModItems extends Item {
 		GameRegistry.registerItem(bat, ItemBat.name);
 		GameRegistry.registerItem(bludgerGlove, ItemBludgerGlove.name);
 		GameRegistry.registerItem(bludger, ItemBludger.name);
+		GameRegistry.registerItem(wand, ItemWand.name);
 
 
 		// Jersey and headbands
